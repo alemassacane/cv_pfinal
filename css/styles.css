@@ -170,7 +170,14 @@ section#about {
 .at {
     font-weight: bold;
 }
-
+/* Para safari que considera los teléfonos links */
+.mobile a {
+    color: inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+    text-decoration: none;
+}
 .place {
     display: flex;
     justify-content: flex-start;
