@@ -1,13 +1,13 @@
-#ARGENTINA PROGRAMA
-## TICMAS ACADEMY: Introducción primeros pasos en Front-End
+## ARGENTINA PROGRAMA
+### TICMAS ACADEMY: Introducción primeros pasos en Front-End
 
-## Proyecto final integrador: Elaboración de un Curriculum Vitae
+### Proyecto final integrador: Elaboración de un Curriculum Vitae
 
 ## URL del proyecto
 
 https://alemassacane.github.io/cv_pfinal
 
-![QR] (images/QR_cv_pfinal.png)
+![QR](images/QR_cv_pfinal.png)
 
 ## - Curriculum Vitae -
 
@@ -21,7 +21,7 @@ En la maquetación utilicé grid y flex, haciendo que el sitio se adapte a disti
 
 Al tocar el logo (EJ) te dirije a la sección de contacto, allí el botón de botón de enviar no te dirige a ninguna parte. Los íconos de las redes sociales tampoco están vinculados.
 
-A futuro, en la sección Portfolio podría hacer que al tocar en cada categoría de fotos, te dirija a otra pagina que muestre más imágenes aunque eso puede hacer más lenta la navegación del sitio.
+A futuro, en la sección Portfolio podría hacer que al tocar en cada categoría de fotos, te dirija a otra página que muestre más imágenes aunque eso puede hacer más lenta la navegación del sitio.
 
 
 
