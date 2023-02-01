@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="https://kit.fontawesome.com/c34970a2c3.js" crossorigin="anonymous">
+    </script>
+
+    <script defer src="./js/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <title>Proyecto final</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- Barra de navegacion -->
+        <nav class="nav">
+            <a href="#contact_a" class="logo nav-link">EJ</a>
+
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="#about_a" class="nav-menu-link nav-link">Sobre mi</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#experience_a" class="nav-menu-link nav-link">Experiencia</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#studies_a" class="nav-menu-link nav-link">Educación</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#portfolio_a" class="nav-menu-link nav-link">Portfolio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#contact_a" class="nav-menu-link nav-link nav-menu-link_active ">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="imagen">
+            <img src="images/emma.jpg" alt="mujer" height="150px" width="150px">
+            <div class="nombre">
+                <h2 class="name">Emma Jara</h2>
+                <p>bióloga, profesora, fotógrafa, diseñadora web</p>
+
+                <div class="social">
+                    <a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-square-twitter"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"> <i class="fa-brands fa-linkedin"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-square-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Datos personales / Sobre mi -->
+        <section id="about">
+            <p id="about_a"></p>
+            <div class="list-title">
+                <h3 class="title">Datos personales</h3>
+                <div class="section-list">
+
+                    <ul>
+                        <li class="section-list-item">
+                            <i class="fa-solid fa-at"></i>
+                            <class class="at">emmajara@mimail.com</class>
+                        </li>
+
+                        <li class="section-list-item">
+                            <i class="fa-solid fa-mobile"></i>54 911 8888 8888
+                        </li>
+
+                        <li class="section-list-item">
+                            <div class="place">
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                <div>
+                                    <p>Ciudad de Buenos Aires</p>
+                                    <p>Argentina</p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="section-list-item">
+                            <i class="fa-sharp fa-solid fa-calendar-day"></i>10/06/1988
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-text">
+                <h3 class="title">Sobre mi</h3>
+                <div class="section-title-p">
+                    <p>Profesora de biología en colegios secundarios, experiencia de trabajo con grupos numerosos. He
+                        dictado clases particulares de matemática, física y química en la modalidad presencial y a
+                        distancia.</p>
+                    <p>Fotógrafa de la naturaleza con especial interés en las especies autóctonas. Charlas sobre
+                        temáticas ambientales
+                        en colegios y Organizaciones sin fines de lucro.</p>
+                    <p>Estoy incursionando en el diseño de páginas web con el fin de poder
+                        vincular mis áreas de conocimiento y darle otro tipo de difusión. Así como incrementar mis
+                        ingresos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experience">
+            <p id="experience_a"></p>
+            <h3 class="title">Experiencia laboral</h3>
+
+            <table summary="Experiencia laboral">
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <p>Julio 2022 - Actualidad</p>
+                            <p class="lugar">Creativem S.A.</p>
+                        </th>
+                        <td>Pasante como desarrolladora de contenido y elaboración de páginas web.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <p>Marzo 2014 - Actualidad</p>
+                            <p class="lugar">Colegio N°2 DE 3</p>
+                        </th>
+                        <td>Profesora de biología en distintos niveles. Tutora y referente
+                            de alumnos. Coordinadora de tutores.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <p>Febrero 2009 - Diciembre 2012</p>
+                            <p class="lugar">Reserva Ecológica</p>
+                        </th>
+                        <td>Guía e intérprete de la naturaleza. Elaboración de material didáctico
+                            de difusión sobre temas relacionados con la flora y fauna del lugar.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Habilidades profesionales / Educación -->
+        <section id="studies">
+            <p id="studies_a"></p>
+            <div class="list-title">
+                <h3 class="title">Habilidades profesionales</h3>
+                <div class="section-list-hab">
+
+
+                    <p>Inglés</p>
+                    <div class="container">
+                        <div class="skill eng">80%</div>
+                    </div>
+
+                    <p>Google Classroom</p>
+                    <div class="container">
+                        <div class="skill classroom">90%</div>
+                    </div>
+
+                    <p>Python</p>
+                    <div class="container">
+                        <div class="skill py">70%</div>
+                    </div>
+
+                    <p>HTML-CSS-JS</p>
+                    <div class="container">
+                        <div class="skill hcj">60%</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section-text-educacion">
+                <h3 class="title">Educación</h3>
+                <table class="educacion">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                2020 - Actualidad
+
+                            </th>
+                            <td>
+                                <p>Desarrollador web</p>
+                                <p class="lugar">Instituto siglo XVIII</p>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                2010 - 2013
+                            </th>
+                            <td>
+                                <p>Profesora en biología</p>
+                                <p class="lugar">Universidad de los Aires</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                2006 - 2012
+                            </th>
+                            <td>
+                                <p>Licenciada en ciencias biológicas</p>
+                                <p class="lugar">Universidad de los Aires</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <p id="portfolio_a"></p>
+            <h3 class="title">Portfolio</h3>
+            <ul class="portfolio">
+                <li>
+                    <p class="des">Retratos</p>
+                    <img src="images/img/fotografia1.jpg" alt="mujer con cámara de fotos"></a>
+                    <!-- <div class="des">Retratos</div> -->
+                </li>
+                <li>
+                    <p class="des">Fauna silvestre</p>
+                    <img src="images/img/fotografia2.jpg" alt="lagarto overo"></a>
+                    <!-- <div class="des">Fauna silvestre</div> -->
+                </li>
+                <li>
+                    <p class="des">Macros</p>
+                    <img src="images/img/fotografia3.jpg" alt="diente de león"></a>
+                    <!-- <div class="des">Macros</div> -->
+                </li>
+                <li>
+                    <p class="des">Paisajes</p>
+                    <img src="images/img/fotografia4.jpg" alt="arena río cielo"></a>
+                    <!-- <div class="des">Paisajes</div> -->
+                </li>
+            </ul>
+
+        </section>
+
+
+        <!-- Contacto-->
+        <section id="contact">
+            <p id="contact_a"></p>
+            <h3 class="title">Contacto</h3>
+            <div class="contact1">
+                <p>Enviame un mensaje:</p>
+
+                <form action="" id="message">
+                    <label for=""></label>
+                    <input type="text" name="nombre" placeholder="Nombre *" required>
+                    <label for=""></label>
+                    <input type="text" name="correo" autocomplete="email" placeholder="Correo *" required>
+                    <input type="text" name="asunto" placeholder="Asunto">
+                    <textarea name="mensaje" placeholder="Mensaje..."></textarea>
+                    <input type="button" value="ENVIAR" id="button">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer-->
+    <footer>
+        <div class="footer-copywrite">
+            <p id="derechos">Alejandra Massacane &copy2023</p>
+        </div>`
+    </footer>
+</body>
+
+</html>
